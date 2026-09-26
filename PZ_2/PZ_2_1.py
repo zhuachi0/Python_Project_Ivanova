@@ -2,7 +2,7 @@
 
 num = int(input('Введите двузначное число: '))
 
-ed = num%10
+ed = num % 10
 des = num//10
 
 res = ed * 10 + des
