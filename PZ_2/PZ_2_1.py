@@ -6,7 +6,7 @@ while type(num) != int:
     try:
         num = int(num)
         if 10 <= num <= 99:
-            break  # Всё верно, выходим из цикла проверки
+            break
         else:
             print('Число должно быть от 10 до 99')
             num = input('Введите двузначное число: ')
