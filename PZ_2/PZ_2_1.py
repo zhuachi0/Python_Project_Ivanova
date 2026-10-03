@@ -20,5 +20,5 @@ des = num//10
 
 res = ed * 10 + des
 
-print(f'Старое число: {num} \nРезультат: {res}')
+print(f'Старое число: {num}\nРезультат: {res}')
 
