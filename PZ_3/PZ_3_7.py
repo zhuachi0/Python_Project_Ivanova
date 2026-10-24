@@ -19,7 +19,7 @@ while type(n2) != float:
 
 summa = n1 + n2
 
-if summa // 5:
+if (summa % 5) == 0:
     kr5 = summa + 1
     print(f'Сумма чисел кратна 5. Результат действия: {kr5}')
 else:
