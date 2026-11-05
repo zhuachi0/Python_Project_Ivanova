@@ -3,8 +3,11 @@
 n = int(input('Введите число: '))
 factor = 1
 s = 0
+i = 1
 
-for i in range(1, n + 1):
-    factor = factor * i
+while i <= n:
+    factor *= i
     s += factor
+    
+    i += 1
 print(f'Сумма факториалов от 1 до {n}: {s}')

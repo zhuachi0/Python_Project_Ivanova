@@ -5,8 +5,13 @@ a = int(input('Введите первое число: '))
 b = int(input('Введите второе число: '))
 count = 0
 
-for i in range(b, a - 1, -1):
+i = b
+
+while i >= a:
     print(i, end=' ')
     count += 1
+    
+    i -= 1
+
 print()
 print(f'Количество чисел: {count}')

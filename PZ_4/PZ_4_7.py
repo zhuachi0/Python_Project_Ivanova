@@ -2,9 +2,13 @@
 
 kol = int(input('Введите количество чисел: '))
 summa = 0
+i = 1
 
-for i in range(1, kol+1):
-    i = int(input('Введите число: '))
-    summa += i
+while i <= kol:
+    n = int(input(f'Введите {i}-е число: '))
+    summa += n
+    
+    i += 1
+
 arifm = summa / kol
 print(f'Количество чисел: {kol}\nИх среднее арифметическое: {arifm}')

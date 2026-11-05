@@ -3,8 +3,12 @@
 a = int(input('Введите первое число: '))
 b = int(input('Введите второе число: '))
 summa = 0
+i = a
 
-for i in range(a, b + 1):
+while i <= b:
     summa += i
+
+    i += 1
+    
 print(f'Сумма чисел: {summa}') 
     

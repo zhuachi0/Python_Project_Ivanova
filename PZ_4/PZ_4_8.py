@@ -2,9 +2,13 @@
 
 kol = int(input('Введите количество чисел: '))
 summa = 0
+i = 1
 
-for i in range(1, kol+1):
-    i = int(input('Введите число: '))
-    if i == 0:
+while i <= kol:
+    n = int(input(f'Введите {i}-е число: '))
+    if n == 0:
         summa += 1
+
+    i += 1
+    
 print(f'Количество чисел: {kol} \nИз них нулей: {summa}')
