@@ -24,6 +24,12 @@ while type(n) != int:
         print('Нужно ввести целое число')
         n = input('Введите целое число: ')
 
-stepen = a ** n
+count = n
+res = 1
 
-print(f'Результат: {stepen}')
+while count > 0:
+    res *= a
+    count -= 1
+
+
+print(f'Результат: {res}')
