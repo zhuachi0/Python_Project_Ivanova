@@ -31,5 +31,4 @@ while count > 0:
     res *= a
     count -= 1
 
-
 print(f'Результат: {res}')
