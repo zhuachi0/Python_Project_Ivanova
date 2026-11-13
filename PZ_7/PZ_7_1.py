@@ -7,4 +7,4 @@ for i in stroka:
     if i.isdigit():
         count += 1
 
-print(count)        
+print(f'Количество цифр в строке: {count}')        

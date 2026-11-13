@@ -13,4 +13,4 @@ for i in word:
         max_dlina = len(i)
         slovo = i
 
-print(slovo)        
+print(f'Самое длинное слово в предложении: {slovo}')        
